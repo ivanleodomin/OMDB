@@ -1,0 +1,82 @@
+.banner {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  /* position: absolute; */
+  display: block;
+/*   opacity: 0.4; */
+  background-color: transparent;
+   background: url("https://i.blogs.es/c244d3/mejores-posters2019/1366_2000.jpeg"); 
+ /*  background-color: hsl(171, 100%, 41%); */
+}
+
+.welcome {
+  color: #ffff;
+  
+}
+.capa{
+	width: 100%;
+}
+
+.titulo {
+  text-align: center;
+  font-size:100%;
+  height: 100%;
+  width: 100%;
+}
+
+.titulo .title{
+	font-size:200px;
+	text-align: center;
+	color: white;
+}
+
+.wrapper {
+  height: 450px;
+  display: flex;
+  overflow-x: auto;
+}
+
+#cardImgane {
+  margin: 1px;
+  display: block;
+}
+
+.itemA img {
+  float: left;
+  width: 44em;
+  height: 24em;
+  border-radius: 40px
+}
+
+.wrapper .itemA {
+  min-width: 28%;
+  height: 100%;
+  margin: 5px;
+}
+
+@media (max-width: 400px) {
+	.wrapper .itemA {
+		min-width: 60%;
+	}
+  }
+
+@media (min-width: 1000px) {
+	.wrapper .itemA {
+		min-width: 20%;
+	}
+  }
+
+
+@media (min-width: 1150px) {
+	.wrapper .itemA {
+		min-width: 15%;
+	}
+  }
+
+
+  @media (min-width: 1300px) {
+	.wrapper .itemA {
+		min-width: 10%;
+	}
+  }

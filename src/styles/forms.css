@@ -1,0 +1,25 @@
+.div-form{
+
+    margin: 0 auto ;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    display: flex;
+   
+  }
+  
+  .formulario {
+    position: absolute;
+    top: 100%;
+    margin: 0 auto;
+  }
+  
+  #title-form{
+    text-align: center;
+    margin: 1em auto 2em auto ;
+  }
+
+  .link-register{
+    text-align: center;
+    
+  }

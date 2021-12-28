@@ -1,0 +1,13 @@
+.poster{
+    height:100%;
+    width:100%;
+}
+
+.trailer{
+  display:flex;
+  justify-content:center;
+}
+
+.botones{
+    align-items: center;
+}

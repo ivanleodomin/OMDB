@@ -1,0 +1,8 @@
+{
+    "database": "OMDB",
+    "dialect": "postgres",
+    "logging": false,
+    "username" : "postgres",
+    "password" : ""
+  }
+  
