@@ -35,7 +35,7 @@ function Banner() {
       <div className="banner">
         <div className="capa">
           <div className="titulo">
-            <h1 className="title">OMD</h1>
+            <h1 className="title">OMD Proyect</h1>
           </div>
         </div>
       </div>
